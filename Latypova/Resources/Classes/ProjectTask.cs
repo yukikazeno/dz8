@@ -123,7 +123,7 @@
 
             Executor = newExecutor;
             Status = TaskStatus.Assigned;
-            Console.WriteLine($"[Задача '{Description}'] Инициатор {initiator.Name} назначил задачу -> {newExecutor.Name}.");
+            Console.WriteLine($"Задача '{Description}' \nИнициатор {initiator.Name} назначил задачу {newExecutor.Name}.");
         }
 
         public void SubmitReport(Person executor, string reportText)
